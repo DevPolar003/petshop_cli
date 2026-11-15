@@ -1,0 +1,3 @@
+##[pylyzer] succeed /home/morgan/ProgrammingStudies/Python/prod_cadastro/utils.py 1794260794 192
+.show_logo: () -> NoneType
+.show_menu: () -> NoneType

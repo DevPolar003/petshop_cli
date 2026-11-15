@@ -1,0 +1,8 @@
+RESET = "\033[0m"
+NEGRITO = "\033[1m"
+AZUL = "\033[36m"
+RED = "\033[91m"
+VERDE = "\033[32m"
+MAGENTA_BRILHANTE = "\033[95m"
+MARGEM = " " * 4
+CINZA = "\033[33m"
