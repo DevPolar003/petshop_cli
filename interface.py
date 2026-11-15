@@ -1,5 +1,7 @@
 import cores
+
 margem = " " * 4
+
 
 def show_logo() -> None:
 
@@ -18,7 +20,6 @@ def show_logo() -> None:
     print()
 
 
-
 def show_submenu() -> None:
     print(f"{margem}{cores.AZUL} =+ Filtros += {cores.RESET}")
     print(f"{margem}{cores.AZUL}[1] Listar todos {cores.RESET}")
@@ -27,7 +28,6 @@ def show_submenu() -> None:
     print(f"{margem}{cores.AZUL}[4] Faixa de preco {cores.RESET}")
     print(f"{margem}{cores.AZUL}[5] Faixa de quantidade {cores.RESET}")
     print(f"{margem}{cores.AZUL}[6] Sair dos filtros {cores.RESET}")
-
 
 
 def show_menu() -> None:
