@@ -44,7 +44,7 @@ Digite o número da opção desejada e pressione Enter. A opção 2 abre o subme
 ```
 prod_cadastro/
 ├── main.py            # ponto de entrada e loops de menu
-├── cores.py           # constantes de cores ANSI
+├── utils.py           # constantes de cores ANSI
 ├── armazenamento.py   # leitura/escrita do arquivo JSON
 ├── produtos.py        # regras de negócio: criação, verificação de ID, filtros
 ├── interface.py       # logotipo, menus e exibição de tabelas
