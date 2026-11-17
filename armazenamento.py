@@ -1,7 +1,7 @@
 import json
 import os
 
-import cores
+import utils
 
 arc = "./data/produtos.json"
 
@@ -19,4 +19,5 @@ def read_json() -> list[dict]:
 def add_json(lista_prod: list[dict]) -> None:
     with open(arc, "w", encoding="utf-8") as f:
         json.dump(lista_prod, f, indent=4, ensure_ascii=False)
-        print(f"{cores.VERDE}Produto adicionado com sucesso! {cores.RESET}")
+        print(f"{utils.VERDE}Produto adicionado com sucesso! {utils.RESET}")
+
