@@ -22,7 +22,7 @@ Um aplicativo de linha de comando simples para cadastrar e pesquisar produtos, d
 ## Como executar
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone https://github.com/DevPolar003/petshop_cli
 cd prod_cadastro
 python main.py
 ```
@@ -60,8 +60,8 @@ Os produtos são armazenados como uma lista de objetos:
 [
 {
 "codigo": 1,
-"nome": "Guitarra Fender",
-"categoria": "Cordas",
+"nome": "Terrário de cobra",
+"categoria": "Habitat",
 "preco": 4500.0,
 "quantidade": 3
 }
@@ -70,7 +70,7 @@ Os produtos são armazenados como uma lista de objetos:
 
 ## Possíveis melhorias
 
-- Editar e remover produtos (CRUD completo)
+- Pesquisa atraves de IA e salvar no JSON os dados desejados.
 - Substituir a saída ANSI manual pela biblioteca [`rich`](https://github.com/Textualize/rich)
 - Testes automatizados com `pytest`
 - Substituir o JSON por SQLite
